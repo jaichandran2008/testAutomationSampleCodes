@@ -1,0 +1,77 @@
+2017-11-03 23:09:16,881 DEBUG [Forwarding newSession on session null to remote] RequestAddCookies:123 - CookieSpec selected: default
+2017-11-03 23:09:16,896 DEBUG [Forwarding newSession on session null to remote] RequestAuthCache:77 - Auth cache not set in the context
+2017-11-03 23:09:16,913 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:2338][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-11-03 23:09:16,929 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:2338][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-11-03 23:09:16,929 DEBUG [Forwarding newSession on session null to remote] MainClientExec:235 - Opening connection {}->http://localhost:2338
+2017-11-03 23:09:16,929 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:2338
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49269<->127.0.0.1:2338
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] MainClientExec:256 - Executing request POST /session HTTP/1.1
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Content-Length: 659
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Host: localhost:2338
+2017-11-03 23:09:16,944 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Content-Length: 659[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Host: localhost:2338[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "{[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "acceptInsecureCerts": true,[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "browserName": "firefox",[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "moz:firefoxOptions": {[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "args": [],[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "prefs": {}[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    }[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  },[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "acceptInsecureCerts": true,[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "browserName": "firefox",[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "moz:firefoxOptions": {[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "args": [],[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "prefs": {}[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      }[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    },[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "acceptInsecureCerts": true[\n]"
+2017-11-03 23:09:16,960 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    },[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      {[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "browserName": "firefox",[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "moz:firefoxOptions": {[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "          "args": [],[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "          "prefs": {}[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        }[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      }[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    ][\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  }[\n]"
+2017-11-03 23:09:16,975 DEBUG [Forwarding newSession on session null to remote] wire:87 - http-outgoing-0 >> "}"
+2017-11-03 23:09:18,880 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2017-11-03 23:09:18,880 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Connection: close[\r][\n]"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Content-Length: 425[\r][\n]"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Date: Sat, 04 Nov 2017 04:09:18 GMT[\r][\n]"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] wire:87 - http-outgoing-0 << "{"value":{"error":"unknown error","message":"Missing 'marionetteProtocol' field in handshake","stacktrace":"stack backtrace:\n   0:   0x5ecb16 - <no info>\n   1:   0x43475e - <no info>\n   2:   0x4177f3 - <no info>\n   3:   0x40740d - <no info>\n   4:   0x63c066 - <no info>\n   5:   0x410f02 - <no info>\n   6:   0x637241 - <no info>\n   7: 0x7662336a - BaseThreadInitThunk\n   8: 0x776b98f2 - RtlInitializeExceptionChain"}}"
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] headers:122 - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Connection: close
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Cache-Control: no-cache
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Content-Length: 425
+2017-11-03 23:09:18,895 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Date: Sat, 04 Nov 2017 04:09:18 GMT
+2017-11-03 23:09:18,911 DEBUG [Forwarding newSession on session null to remote] DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-11-03 23:09:18,911 DEBUG [Forwarding newSession on session null to remote] MainClientExec:104 - Connection discarded
+2017-11-03 23:09:18,911 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:2338][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]

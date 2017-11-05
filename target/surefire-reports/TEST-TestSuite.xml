@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="0" name="TestSuite" time="25.927" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="ConEmuArgs2" value=""/>
+    <property name="LOGONSERVER" value="\\REMYA-PC"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="ConEmuBaseDir" value="E:\Program Files\ConEmu\ConEmu"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="remya-PC"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="COMPUTERNAME" value="REMYA-PC"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="remya"/>
+    <property name="ConEmuWorkDrive" value="C:"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 2, GenuineIntel"/>
+    <property name="=E:" value="E:\jenkins"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\remya\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/14/display/redirect?page=changes"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-14"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\remya\.jenkins\war\WEB-INF\lib\remoting-3.13.jar C:\Users\remya\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\remya\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 50540"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="434e67f094ff7db6"/>
+    <property name="ConEmuHWND" value="0x000602F4"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;E:\Program Files\ConEmu\ConEmu\Scripts;E:\Program Files\ConEmu;E:\Program Files\ConEmu\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 &amp; MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 &amp; MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\;D:\apache-maven-3.5.0-bin\bin"/>
+    <property name="ConEmuPID" value="5152"/>
+    <property name="java.io.tmpdir" value="C:\Users\remya\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\remya\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/14/"/>
+    <property name="ConEmuBackHWND" value="0x000E06E0"/>
+    <property name="M2_HOME" value="C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=C:" value="C:\Users\remya"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="ANSICON" value="106x1000 (106x42)"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="434e67f094ff7db6"/>
+    <property name="MAVEN_HOME" value="C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="ConEmuPalette" value="&lt;ConEmu&gt;"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\remya\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\remya"/>
+    <property name="ConEmuIsAdmin" value="ADMIN"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="14"/>
+    <property name="maven3.interceptor" value="C:\Users\remya\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121/bin;E:\Program Files\ConEmu\ConEmu\Scripts;E:\Program Files\ConEmu;E:\Program Files\ConEmu\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 &amp; MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 &amp; MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\;D:\apache-maven-3.5.0-bin\bin;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/14/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\remya\.jenkins"/>
+    <property name="BUILD_ID" value="14"/>
+    <property name="TEMP" value="C:\Users\remya\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="ConEmuDrawHWND" value="0x000E06DE"/>
+    <property name="M2_PATH" value="D:\apache-maven-3.5.0-bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="2502"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\remya\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="MOZ_PLUGIN_PATH" value="E:\Program Files\Foxit Software\Foxit Reader\plugins\"/>
+    <property name="PROMPT" value="$E[m$E[32m$E]9;8;&quot;USERNAME&quot;$E\@$E]9;8;&quot;COMPUTERNAME&quot;$E\$S$E[92m$P$E[90m$_$E[90m$$E[m$S$E]9;12$E\"/>
+    <property name="ConEmuTask" value="{Shells::cmd}"/>
+    <property name="ConEmuDir" value="E:\Program Files\ConEmu"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\remya"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\remya"/>
+    <property name="USERNAME" value="remya"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="ConEmuDrive" value="E:"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="E:\Users\akash\workspace\FreeCRMTest"/>
+    <property name="maven.conf" value="C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ConEmuAnsiLog" value=""/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="ConEmuHooks" value="Enabled"/>
+    <property name="TMP" value="C:\Users\remya\AppData\Local\Temp"/>
+    <property name="ConEmuBuild" value="161206"/>
+    <property name="ConEmuWorkDir" value="C:\Users\remya"/>
+    <property name="ConEmuPrompt3" value="$E[m$S$E]9;12$E\"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="ConEmuPrompt2" value="$_$E[90m$"/>
+    <property name="ConEmuPrompt1" value="$E[m$E[32m$E]9;8;&quot;USERNAME&quot;$E\@$E]9;8;&quot;COMPUTERNAME&quot;$E\$S$E[92m$P$E[90m"/>
+    <property name="ConEmuPrompt0" value="$E[m$E[32m$E]9;8;&quot;USERNAME&quot;$E\@$E]9;8;&quot;COMPUTERNAME&quot;$E\$S"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.class.path" value="C:\Users\remya\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="ANSICON_DEF" value="7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\remya\.jenkins\workspace\FreeCRMTestJob"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="ConEmuConfig" value=""/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="ConEmuArgs" value=""/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ConEmuServerPID" value="1416"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="ConEmuANSI" value="ON"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_121/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\remya\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsPageLabel" time="0.134"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.044"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.03"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectSingleContactsTest" time="0.676"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyUserNameTest" time="0.891"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImageTest" time="0.108"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectMultipleContactsTest" time="0.961"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsLinkTest" time="2.436"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="3.818"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="5.871"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="5.778"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="5.18"/>
+</testsuite>
