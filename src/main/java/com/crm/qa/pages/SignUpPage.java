@@ -11,5 +11,8 @@ public class SignUpPage extends TestBase {
 	public void loginSet(){
 		System.out.println("loginset");
 	}
-
+	
+	public void signuppagetest(){
+		System.out.println("testlogin");
+	}
 }
